@@ -3,6 +3,7 @@ import ReviewsCtrl from "./reviews.controller.js";
 
 const router = express.Router();
 
+// Setting up routes
 router.route("/movie/:id").get(ReviewsCtrl.apiGetReviews);
 router.route("/new").post(ReviewsCtrl.apiPostReview);
 router.route("/:id")
