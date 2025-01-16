@@ -1,0 +1,1 @@
+Movie web application allowing for viewing, searching and adding reviews to movies. Utilizes the TMDB API to access the database of movies and thumbnails. Also uses MongoDB to create backend for holding reviews data. Frontend uses HTML and CSS to create display, and has functionality to add, edit, or remove reviews.
